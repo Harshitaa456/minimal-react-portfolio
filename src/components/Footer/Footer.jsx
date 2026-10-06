@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        Made with ❤️ by <span>Shehab Shalan</span>
+      Built with React.js & JavaScript by <span>Harshita Gaur</span>
       </p>
     </footer>
   );

@@ -8,7 +8,7 @@ import Skills from "./components/Skills/Skills";
 import "./App.css";
 import Contact from "./components/Contact/Contact";
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     if (theme === "light") {
