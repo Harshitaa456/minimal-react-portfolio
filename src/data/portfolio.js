@@ -1,91 +1,159 @@
 const about = {
-  title: "Hi 👋 , I am Shehab Shalan",
+  title: "Hi 👋, I am Harshita Gaur",
+
   description:
-    "I am a full stack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
-  github: "https://github.com/shehabshalan",
-  linkedin: "https://www.linkedin.com/in/shehabshalan/",
-  cv: "#",
+    "I’m a Computer Science graduate who enjoys turning ideas into practical web applications. I work mainly with React.js, JavaScript, Node.js, Express.js, and PostgreSQL, and have built projects involving authentication, REST APIs, database management, and responsive interfaces. I’m currently looking for an opportunity where I can contribute as a Web Developer while continuing to grow my development skills.",
+
+  github: "https://github.com/Harshitaa456",
+
+  linkedin: "https://www.linkedin.com/in/harshita-gaur-0a5224362/",
+
+  cv: "https://drive.google.com/file/d/1Aj-7LTAaIssUAD5Z2DPb6AaQNfM9GZgH/view?usp=drivesdk",
 };
 
 const projects = {
   title: "Projects",
+
   personalProjects: [
     {
-      title: "Youtube Clone",
-      short:
-        "Features Firebase authentication, video upload, and video streaming.",
+      title: "Aventra – Customer Management System",
+
       description:
-        "it is a video-sharing app built using Firebase for authentication, and data persistence. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
-      technologies: ["#React.js", "#MUI", "#Firebase"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Next.js Blog",
-      short:
-        "Features JWT authentication, headless CMS, and full CRUD operations.",
-      description:
-        "it is a Next.js blog site built using Strapi (a headless CMS). Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
-      technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "File Sharing App",
-      short:
-        "Features multi-file upload, sharing links with expiration and document preview.",
-      description:
-        "it is a file sharing app built using the MERN stack. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
+        "A full-stack CRM application designed to simplify customer management. Users can add, update, view, search, and delete customer records while tracking their current status. The application uses React.js and Tailwind CSS for the interface, with Node.js and Express.js powering the REST APIs. PostgreSQL with Prisma handles data management, while Clerk provides user authentication.",
+
       technologies: [
         "#React.js",
-        "#MUI",
-        "#Express.js",
+        "#Tailwind CSS",
         "#Node.js",
-        "#MongoDB",
+        "#Express.js",
+        "#PostgreSQL",
+        "#Prisma",
+        "#Clerk",
       ],
-      github: "#",
-      demo: "#",
+
+      github:
+        "https://github.com/Harshitaa456/customer-management-system",
+
+      demo: "https://customer-management-system-sigma-liard.vercel.app/",
+    },
+
+    {
+      title: "Food Ordering Website",
+
+      description:
+        "A responsive food ordering application built with React.js and Tailwind CSS. It provides an easy-to-navigate interface where users can explore available dishes, view individual food details, and place orders through the application.",
+
+      technologies: [
+        "#React.js",
+        "#Tailwind CSS",
+        "#JavaScript",
+      ],
+
+      github:
+        "https://github.com/Harshitaa456/foodie-app",
+
+      demo: "https://foodie-app12.netlify.app/",
+    },
+
+    {
+      title: "Bloomin – A Small Business Digitiser",
+
+      description:
+        "A full-stack platform being developed to help small businesses establish an online presence and manage their digital storefronts. Customers can browse products, add items to a cart, and place and track orders, while sellers can manage products through a dedicated dashboard and receive order alerts. The backend is built with Node.js, Express.js, and TypeScript, with PostgreSQL and Firebase Authentication handling data and secure access.",
+
+      technologies: [
+        "#React.js",
+        "#Node.js",
+        "#Express.js",
+        "#TypeScript",
+        "#PostgreSQL",
+        "#Firebase Authentication",
+      ],
+
+      github:
+        "https://github.com/mystic0l/bloomin-fe",
+
+      demo: "https://bloomin-virid.vercel.app/",
     },
   ],
 };
 
 const experience = {
   title: "Experience",
+
   experiences: [
     {
-      title: "Frontend Developer",
-      company: "XYZ Company",
-      duration: "Mar 2021 - Present",
+      title: "Frontend Web Development Intern",
+      company: "IBM SkillsBuild",
+      duration: "Aug 2025 – Oct 2025",
+
       description:
-        "I am currently working as a frontend developer at XYZ Company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
+        "Worked on frontend development fundamentals through practical exercises involving HTML, CSS, JavaScript, responsive layouts, interactive elements, and user-focused interface design.",
+    },
+
+    {
+      title: "Web Development Intern",
+      company: "IBM PBEL Virtual Internship",
+      duration: "Jun 2025 – Jul 2025",
+
+      description:
+        "Worked on responsive web pages and basic frontend and backend tasks while applying UI design concepts, troubleshooting implementation issues, and completing assigned development work.",
     },
   ],
 };
 
 const skills = {
   title: "Skills",
+
   mySkills: [
     {
-      title: "Languages & Frameworks",
+      title: "Languages",
+
       skills: [
-        "#HTML",
-        "#CSS",
+        "#Java",
         "#JavaScript",
         "#TypeScript",
-        "#React.js",
-        "#Next.js",
-        "#MUI",
-        "#Node.js",
-        "#Express.js",
+        "#SQL",
+        "#HTML5",
+        "#CSS3",
       ],
     },
+
     {
-      title: "Databases",
-      skills: ["#MongoDB", "#PostgreSQL", "#Firebase"],
+      title: "Frameworks & Libraries",
+
+      skills: [
+        "#React.js",
+        "#Node.js",
+        "#Express.js",
+        "#Tailwind CSS",
+        "#Prisma",
+      ],
     },
+
     {
-      title: "Others",
-      skills: ["#Git", "#Jest", "#CI/CD", "#AdobeXD"],
+      title: "Databases & Authentication",
+
+      skills: [
+        "#PostgreSQL",
+        "#Clerk Authentication",
+      ],
+    },
+
+    {
+      title: "Tools & Concepts",
+
+      skills: [
+        "#Git",
+        "#GitHub",
+        "#Vercel",
+        "#VS Code",
+        "#Postman",
+        "#REST APIs",
+        "#Responsive Design",
+        "#CRUD Operations",
+        "#Problem Solving",
+      ],
     },
   ],
 };
